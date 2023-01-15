@@ -1,9 +1,13 @@
-class EventsController < ApplicationController
+class Api::V1::EventsController < ApplicationController
 
-    before_action :authorized 
     before_action :set_event, only: [:show, :update, :destroy]
+    load_and_authorize_resource
 
     rescue_from ActiveRecord::RecordInvalid, with: :valid_event
+
+    rescue_from CanCan::AccessDenied do |exception|
+        render json: {warning: exception, status: "authorization_failed"}
+    end
 
     def index
         @events = Event.all
@@ -48,5 +52,5 @@ class EventsController < ApplicationController
 
     def valid_event(valid)
         render json:{errors: valid.record.errors.full_messages}, status: :unprocessable_entity
-    ends
+    end
 end
