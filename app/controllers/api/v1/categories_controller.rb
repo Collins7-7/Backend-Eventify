@@ -1,12 +1,9 @@
 class Api::V1::CategoriesController < ApplicationController
 
     rescue_from ActiveRecord::RecordNotFound, with: :render_response_not_found
- 
-    load_and_authorize_resource
 
-    rescue_from CanCan::AccessDenied do |exception|
-        render json: {warning: exception, status: "authorization_failed"}
-    end
+    skip_before_action :authorized
+ 
 
     def index
         categories = Category.all 

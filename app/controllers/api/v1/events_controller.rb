@@ -1,14 +1,13 @@
 class Api::V1::EventsController < ApplicationController
 
     before_action :set_event, only: [:show, :update, :destroy]
-    load_and_authorize_resource
+
+    skip_before_action :authorized
+    
 
     rescue_from ActiveRecord::RecordInvalid, with: :valid_event
 
-    rescue_from CanCan::AccessDenied do |exception|
-        render json: {warning: exception, status: "authorization_failed"}
-    end
-
+   
     def index
         @events = Event.all
         # @bookings = current_user.bookings

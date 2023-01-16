@@ -1,16 +1,14 @@
 class Api::V1::BookingsController < ApplicationController
 
-    load_and_authorize_resource
+
     before_action :set_booking, only: [:show, :update, :destroy]
 
 rescue_from ActiveRecord::RecordInvalid, with: :valid_booking
 
-rescue_from CanCan::AccessDenied do |exception|
-    render json: {warning: exception, status: "authorization_failed"}
-end
+
 
     def index
-        @bookings = Booking.accessible_by(current_ability)
+        @bookings = Booking.all
         # @bookings = current_user.bookings
         render json: @bookings, status: :ok
     end
