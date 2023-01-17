@@ -7,7 +7,7 @@ Category.create(name: "Sports", description: "Spike your adrenaline by the mind-
 Category.create(name: "Music Concerts", description: "Let's replenish and raise your spirits once more.", image_url: "https://media.istockphoto.com/id/1137781483/photo/black-male-guitarist-singing-and-playing-acoustic-guitar-on-stage.jpg?s=612x612&w=0&k=20&c=FumC-iuwoUWijPo6wcx4V162mV5PB8g7FQGOR7A1a88=")
 Category.create(name: "Community", description: "Get support and gain the accountability to achieve your goals.", image_url: "https://media.istockphoto.com/id/468563368/photo/group-of-happy-young-people-showing-thumbs-up.jpg?s=612x612&w=0&k=20&c=XPy5djLrojuutTF_KspQZBoJ3WZQK9dcWJ8G5iO7mXs=")
 
-puts "Done seeding"
+puts "Done seeding init"
 
 puts "Seeding Events"
 
