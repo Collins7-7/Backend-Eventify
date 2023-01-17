@@ -1,11 +1,11 @@
 puts "Seeding Category"
 
-Category.create(name: "Business", description: "Discover tips and best practices to scale up your business.", image_url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1415&q=80")
-Category.create(name: "Technology", description: "Get to learn new trends in tech from the best.", image_url: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80")
-Category.create(name: "Art Workshops", description: "Expand your hobbies in our diverse and interactive workshops.", image_url: "https://images.unsplash.com/photo-1529892485617-25f63cd7b1e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")
-Category.create(name: "Sports", description: "Spike your adrenaline by the mind-blowing sports events.", image_url: "https://images.unsplash.com/photo-1574785525103-c35dd9b6bb91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80")
-Category.create(name: "Music Concerts", description: "Let's replenish and raise your spirits once more.", image_url: "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")
-Category.create(name: "Community", description: "Get support and gain the accountability to achieve your goals.", image_url: "https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80")
+Category.create(name: "Business", description: "Discover tips and best practices to scale up your business.", image_url: "https://media.istockphoto.com/id/1273400289/photo/mature-businessman-giving-presentation-to-executive-team.jpg?s=612x612&w=0&k=20&c=UeOSAZVVWKcTIVBXEmxGSX473l8Q9rYplb6V4oChipk=")
+Category.create(name: "Technology", description: "Get to learn new trends in tech from the best.", image_url: "https://images.pexels.com/photos/4665064/pexels-photo-4665064.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")
+Category.create(name: "Art Workshops", description: "Expand your hobbies in our diverse and interactive workshops.", image_url: "https://media.istockphoto.com/id/510568014/photo/young-couple-visits-an-art-gallery.jpg?s=612x612&w=0&k=20&c=04TeOSkEzW0khjbDg-rXIaNEN0y4371j9Uu81oUxfhg=")
+Category.create(name: "Sports", description: "Spike your adrenaline by the mind-blowing sports events.", image_url: "https://media.istockphoto.com/id/530479339/photo/quarterback-changing-play-at-line-of-scrimmage-during-football-game.jpg?s=612x612&w=0&k=20&c=u1wkrvhPr1OcEfNeDHC2qtt2NDMZKN8ZaQ0W-FF54Fg=")
+Category.create(name: "Music Concerts", description: "Let's replenish and raise your spirits once more.", image_url: "https://media.istockphoto.com/id/1137781483/photo/black-male-guitarist-singing-and-playing-acoustic-guitar-on-stage.jpg?s=612x612&w=0&k=20&c=FumC-iuwoUWijPo6wcx4V162mV5PB8g7FQGOR7A1a88=")
+Category.create(name: "Community", description: "Get support and gain the accountability to achieve your goals.", image_url: "https://media.istockphoto.com/id/468563368/photo/group-of-happy-young-people-showing-thumbs-up.jpg?s=612x612&w=0&k=20&c=XPy5djLrojuutTF_KspQZBoJ3WZQK9dcWJ8G5iO7mXs=")
 
 puts "Done seeding"
 
