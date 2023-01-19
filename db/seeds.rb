@@ -1,3 +1,9 @@
+
+puts "Seeding Admin"
+User.create(username: "Messi", password: "leomessi", email:"messi@gmail.com", role: "admin")
+
+puts "Admin? Done!"
+
 puts "Seeding Category"
 
 Category.create(name: "Business", description: "Discover tips and best practices to scale up your business.", image_url: "https://media.istockphoto.com/id/1273400289/photo/mature-businessman-giving-presentation-to-executive-team.jpg?s=612x612&w=0&k=20&c=UeOSAZVVWKcTIVBXEmxGSX473l8Q9rYplb6V4oChipk=")

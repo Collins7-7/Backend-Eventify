@@ -1,8 +1,12 @@
 class ApplicationController < ActionController::API
    before_action :authorized 
+   after_action :apply_content_range_header
+
     def encode_token(payload) 
         JWT.encode(payload, 'my_s3cr3t') 
     end
+
+
 
     def auth_header
         # { Authorization: 'Bearer <token' }
@@ -39,6 +43,12 @@ class ApplicationController < ActionController::API
         else
             render json: { message: 'Please log in' }, status: :unauthorized
         end
+    end
+
+    protected
+    
+    def apply_content_range_header
+      response.headers['Content-Range'] = 'orders 0-24/319'
     end
 end
 
