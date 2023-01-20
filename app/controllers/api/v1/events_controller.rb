@@ -46,7 +46,7 @@ class Api::V1::EventsController < ApplicationController
 
     def event_params
         params.permit(:name, :image_url, :description, :location, :start_date,
-        :end_date, :start_time, :end_time, :total_tickets, :remaining_tickets, :amount)
+        :end_date, :start_time, :end_time, :total_tickets, :remaining_tickets, :amount, :category_id)
     end
 
     def valid_event(valid)

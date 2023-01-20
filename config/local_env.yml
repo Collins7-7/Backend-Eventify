@@ -4,5 +4,5 @@ MPESA_PASSKEY: ''
 MPESA_SHORTCODE: '174379'
 MPESA_INITIATOR_NAME: 'testapi'
 MPESA_INITIATOR_PASSWORD: ''
-CALLBACK_URL: 'https://bb96-102-135-172-106.eu.ngrok.io'
+CALLBACK_URL: 'https://e6fb-102-135-172-106.in.ngrok.io'
 REGISTER_URL: "https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl"
