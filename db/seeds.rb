@@ -1,3 +1,5 @@
+Event.destroy_all
+Category.destroy_all
 
 puts "Seeding Admin"
 User.create(username: "Messi", password: "leomessi", email:"messi@gmail.com", role: "admin")
