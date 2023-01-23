@@ -100,7 +100,72 @@ Event.create([
     remaining_tickets: 50000,
     amount: 100,
     category_id:6
-    }
+    },{
+      name: "GDG Devfest",
+      description: "Join us in demistifying cloud and its top providers.",
+      image_url: "https://media.istockphoto.com/id/1391324023/photo/cloud-computing-conceptual-illustration-3d-rendering.jpg?s=612x612&w=0&k=20&c=n2irtiMLX1NKKyMP7IVcqnVnK4kPcY1MIvOEZhHHFio=",
+      location: "Dedan Kimathi University, Nyeri",
+      start_date: Date.today + 20.days,
+    end_date: Date.today + 21.days,
+    start_time: "10:00 AM",
+    end_time: "5:00 PM",
+    total_tickets: 2000,
+    remaining_tickets: 2000,
+    amount: 100,
+    category_id:2
+    },{
+    name: "Hiking",
+    description: "How far can you climb the mount Kenya? There's only one way to know!",
+    image_url: "https://media.istockphoto.com/id/1369171053/photo/group-of-sporty-people-walks-in-mountains-at-sunset-with-backpacks.jpg?s=612x612&w=0&k=20&c=ajQuWt2YRWd0FPaCpdKz2Tt3WX2NI1ddeZjf8HIxlwU=",
+    location: "Nanyuki",
+    start_date: Date.today + 30.days,
+end_date: Date.today + 31.days,
+start_time: "6:00 AM",
+end_time: "6:00 PM",
+total_tickets: 500,
+remaining_tickets: 500,
+amount: 1500,
+category_id:4
+},{
+  name: "Team Building",
+  description: "Learn how to determine the core metrics in your business and how to set them for scaling.",
+  image_url: "https://media.istockphoto.com/id/820889114/photo/key-performance-indicator-using-bi-metrics-target-success.jpg?s=612x612&w=0&k=20&c=iX0lABTdfMxgBur1fWsEQKa8s7PnzrR2cCQhGlnAEAc=",
+  location: "Nakuru",
+  start_date: Date.today + 40.days,
+end_date: Date.today + 43.days,
+start_time: "9:00 AM",
+end_time: "4:00 PM",
+total_tickets: 500,
+remaining_tickets: 500,
+amount: 3500,
+category_id:1
+},{
+  name: "Karaoke Evening",
+  description: "Get to enjoy the live bands and get a chance to perform.",
+  image_url: "https://media.istockphoto.com/id/1340670567/vector/karaoke-night-neon-sign-on-dark-background.jpg?s=612x612&w=0&k=20&c=aJmMhvP30sKuQLnjKkAMABJzv8ZVi6rVdV4TfoXofGU=",
+  location: "Moran Lounge, Nairobi",
+  start_date: Date.today + 15.days,
+end_date: Date.today + 15.days,
+start_time: "15:00 PM",
+end_time: "10:00 PM",
+total_tickets: 250,
+remaining_tickets: 250,
+amount: 5000,
+category_id:5
+},{
+  name: "Nairobi Fashion Week",
+  description: "Experience some of the best local fashion designs.",
+  image_url: "https://media.istockphoto.com/id/1355601466/photo/still-life-of-man-clothing-and-accessories-for-gift-ideas.jpg?s=612x612&w=0&k=20&c=hmu7j_gZEdUi7635XmgWjJsqS60oFbm_8G2sjk_ME2Y=",
+  location: "Strathmore",
+  start_date: Date.today + 40.days,
+end_date: Date.today + 41.days,
+start_time: "11:00 AM",
+end_time: "7:00 PM",
+total_tickets: 10000,
+remaining_tickets: 10000,
+amount: 3500,
+category_id:3
+}
     
 ])
 
